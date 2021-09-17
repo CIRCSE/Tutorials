@@ -1,0 +1,30 @@
+PREFIX ontolex: <http://www.w3.org/ns/lemon/ontolex#>
+PREFIX lilacorpora: <http://lila-erc.eu/ontologies/lila_corpora/>
+PREFIX powla: <http://purl.org/powla/powla.owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX lime: <http://www.w3.org/ns/lemon/lime#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX lila: <http://lila-erc.eu/ontologies/lila/>
+
+# Use the endpoint "LexicalResources"
+# The query looks for all instances of "amor" in a document, retrieves all the possible senses of the word from the LatinWordNet and lists all the definitions of the connected synsets (separated by *** in the 3rd columns of the results)
+
+SELECT ?token ?form ?definitions WHERE {
+  {SELECT ?lex ?wlnlemma (GROUP_CONCAT ( ?syndef ; separator=" *** ") as ?definitions) 
+  where {
+    VALUES ?wlnlemma {<http://lila-erc.eu/data/id/lemma/88717>} .
+    <http://lila-erc.eu/data/lexicalResources/LatinWordNet/Lexicon> lime:entry ?lex .
+    ?lex rdfs:label ?lab ;
+         ontolex:canonicalForm ?wlnlemma ;
+         ontolex:sense/ontolex:isLexicalizedSenseOf ?syn .
+    ?syn skos:definition ?syndef
+  }
+    group by ?lex ?wlnlemma}
+  
+  SERVICE <http://lila-erc.eu/sparql/corpora> {
+    VALUES ?doc {<XXX>}
+    ?token lila:hasLemma ?wlnlemma;
+               powla:hasStringValue ?form.
+    ?token lilacorpora:hasCitStructure/powla:hasDocument ?doc.
+  }
+}
