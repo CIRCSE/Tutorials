@@ -1,6 +1,6 @@
 # EADH 2021 tutorial
 
-Tutorial on the [LiLa Knowledge Base](https://lila-erc.eu/), to be held on Sep 21 2021 at the during the (Second International Conference of the European Association for Digital Humanities)[https://eadh2020-2021.org/] (EADH 2021), organized by the Siberian Federal University in Krasnoyarsk, Russia.
+Tutorial on the [LiLa Knowledge Base](https://lila-erc.eu/), to be held on Sep 21 2021 at the during the [Second International Conference of the European Association for Digital Humanities](https://eadh2020-2021.org/) (EADH 2021), organized by the Siberian Federal University in Krasnoyarsk, Russia.
 
 This repository contains the following material to be used during the tutorial:
 1. the slides introducing LiLa,
