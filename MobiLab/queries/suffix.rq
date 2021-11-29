@@ -1,0 +1,24 @@
+PREFIX lime: <http://www.w3.org/ns/lemon/lime#>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#>
+prefix lila: <http://lila-erc.eu/ontologies/lila/>
+prefix marl: <http://www.gsi.dit.upm.es/ontologies/marl/ns#>
+prefix powla: <http://purl.org/powla/powla.owl#>
+prefix corpora: <http://lila-erc.eu/ontologies/lila_corpora/>
+
+# Use the endpoint "corpora"
+# Retrieve all lemmas of the document having the suffixes "-(t)or"
+ 
+select * where {
+  service <https://lila-erc.eu/sparql/lemmaBank/query> {
+    ?lemma ontolex:writtenRep ?wr .
+    ?lemma <http://lila-erc.eu/ontologies/lila/hasSuffix> ?suf .
+    ?suf rdfs:label ?sufLabel .
+    VALUES ?sufLabel {"-(t)or"}
+  }
+  
+  ?CitationLayer powla:hasDocument <XXX> .
+  ?tokenQuer <http://lila-erc.eu/ontologies/lila/hasLemma> ?lemma ;           
+  <http://lila-erc.eu/ontologies/lila_corpora/hasCitStructure> ?CitationLayer.
+
+}group by ?lemma ?wr
