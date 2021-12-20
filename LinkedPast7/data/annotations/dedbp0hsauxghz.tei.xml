@@ -1,0 +1,99 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+          <fileDesc>
+            <titleStmt>
+              <title> PlinytLinkedPasts.txt</title>
+              <author>vvitale</author>
+            </titleStmt>
+            <publicationStmt>
+              <p><date>2021-12-18</date></p>             
+            </publicationStmt>
+            <sourceDesc>
+              <bibl source="https://recogito.pelagios.org/document/dedbp0hsauxghz"/>
+              <biblStruct>
+                <monogr>
+                  
+                  <title>PlinytLinkedPasts.txt</title>
+                    
+                </monogr>
+              </biblStruct>
+            </sourceDesc>
+          </fileDesc>
+          <profileDesc>
+              
+              
+              <settingDesc>
+                  <listPlace>
+          <place xml:id="http://pleiades.stoa.org/places/187290">
+              <placeName>Aquileia</placeName>
+            </place><place xml:id="http://pleiades.stoa.org/places/187585">
+              <placeName>Tiliaventum (river)</placeName>
+            </place><place xml:id="http://pleiades.stoa.org/places/393446">
+              <placeName>Liquentia (river)</placeName>
+            </place><place xml:id="http://pleiades.stoa.org/places/383815">
+              <placeName>Vercellae</placeName>
+            </place><place xml:id="http://pleiades.stoa.org/places/167919">
+              <placeName>Segusio</placeName>
+            </place><place xml:id="http://pleiades.stoa.org/places/383798">
+              <placeName>Ticinum</placeName>
+            </place><place xml:id="http://pleiades.stoa.org/places/393459">
+              <placeName>Opitergium</placeName>
+            </place><place xml:id="http://pleiades.stoa.org/places/393496">
+              <placeName>Silis (river)</placeName>
+            </place><place xml:id="http://pleiades.stoa.org/places/383739">
+              <placeName>Parra</placeName>
+            </place><place xml:id="http://pleiades.stoa.org/places/383717">
+              <placeName>Novaria</placeName>
+            </place><place xml:id="http://pleiades.stoa.org/places/383696">
+              <placeName>Licini Forum?</placeName>
+            </place><place xml:id="http://pleiades.stoa.org/places/393374">
+              <placeName>Altinum</placeName>
+            </place><place xml:id="http://pleiades.stoa.org/places/393441">
+              <placeName>Iulia Concordia</placeName>
+            </place><place xml:id="http://pleiades.stoa.org/places/393469">
+              <placeName>Padus/Eridanus (river)</placeName>
+            </place><place xml:id="http://pleiades.stoa.org/places/383691">
+              <placeName>Laus Pompeia</placeName>
+            </place><place xml:id="http://pleiades.stoa.org/places/383801">
+              <placeName>Transpadana</placeName>
+            </place><place xml:id="http://pleiades.stoa.org/places/383627">
+              <placeName>Comum</placeName>
+            </place><place xml:id="http://pleiades.stoa.org/places/393481">
+              <placeName>Reatinum (river)</placeName>
+            </place><place xml:id="http://pleiades.stoa.org/places/383579">
+              <placeName>Augusta Praetoria</placeName>
+            </place><place xml:id="http://pleiades.stoa.org/places/167639">
+              <placeName>*Alpis Graia</placeName>
+            </place><place xml:id="http://pleiades.stoa.org/places/387324">
+              <placeName>Melpum</placeName>
+            </place><place xml:id="http://sws.geonames.org/3168609">
+              <placeName>Saluzzo</placeName>
+            </place><place xml:id="http://pleiades.stoa.org/places/383706">
+              <placeName>Mediolan(i)um</placeName>
+            </place><place xml:id="http://pleiades.stoa.org/places/393503">
+              <placeName>Tarvisium</placeName>
+            </place><place xml:id="http://pleiades.stoa.org/places/383642">
+              <placeName>Eporedia</placeName>
+            </place><place xml:id="http://pleiades.stoa.org/places/393511">
+              <placeName>Venetia</placeName>
+            </place><place xml:id="http://pleiades.stoa.org/places/383580">
+              <placeName>Augusta Taurinorum</placeName>
+            </place><place xml:id="http://pleiades.stoa.org/places/383589">
+              <placeName>Bergomum</placeName>
+            </place><place xml:id="http://pleiades.stoa.org/places/1004">
+              <placeName>(H)Adriaticum/Superum Mare</placeName>
+            </place><place xml:id="http://pleiades.stoa.org/places/187487">
+              <placeName>Natiso (river)</placeName>
+            </place>
+        </listPlace>
+                </settingDesc>
+            </profileDesc>
+          <encodingDesc>
+            <projectDesc><p>Downloaded from https://recogito.pelagios.org/</p></projectDesc>
+            
+          </encodingDesc>
+        </teiHeader>
+        <text>
+          <body><div><p><placeName ref="http://pleiades.stoa.org/places/383801" xml:id="recogito-60bf7ebf-13d5-4c50-8109-4e1ca817eb13" cert="high">Transpadana</placeName> appellatur ab eo regio undecima, tota in mediterraneo, cui marina cuncta fructuoso alveo inportat. oppida <placeName ref="http://sws.geonames.org/3168609" xml:id="recogito-c8b3dc3c-7df3-4026-9d3d-7ffdc21ac7db" cert="high">Vibi Forum</placeName>, <placeName ref="http://pleiades.stoa.org/places/167919" xml:id="recogito-adbeb524-d9c5-41b4-8069-7fdb2877d3ce" cert="high">Segusio</placeName>, coloniae ab Alpium radicibus <placeName ref="http://pleiades.stoa.org/places/383580" xml:id="recogito-7339df6c-f7dd-49fc-984a-5b8c32a382e1" cert="high">Augusta Taurinorum</placeName> — inde navigabili <placeName ref="http://pleiades.stoa.org/places/393469" xml:id="recogito-8ff93ffc-9ca4-4cf6-b9cc-b3d217785bf1" cert="high">Pado</placeName> — antiqua Ligurum stirpe, dein Salassorum <placeName ref="http://pleiades.stoa.org/places/383579" xml:id="recogito-1876d060-1512-429a-830b-a48da6bec649" cert="high">Augusta Praetoria</placeName> iuxta geminas Alpium fores, <placeName ref="http://pleiades.stoa.org/places/167639" xml:id="recogito-70fbb96e-a002-41f9-b561-d509ffb074f0" cert="high">Graias</placeName> atque Poeninas — his Poenos, Grais Herculem transisse memorant —, oppidum <placeName ref="http://pleiades.stoa.org/places/383642" xml:id="recogito-fa4109d5-84f0-4057-8f96-5fb49f98b9c2" cert="high">Eporedia</placeName> Sibyllinis a populo Romano conditum iussis. eporedias Galli bonos equorum domitores vocant.</p><p><placeName ref="http://pleiades.stoa.org/places/383815" xml:id="recogito-4a6b8696-12ba-43d9-bcdf-b2a6ebd490c6" cert="high">Vercellae</placeName> Libiciorum ex Salluis ortae, <placeName ref="http://pleiades.stoa.org/places/383717" xml:id="recogito-53b0cfaf-276c-4050-97a4-ab8f338378c5" cert="high">Novaria</placeName> ex Vertamocoris, Vocontiorum hodieque pago, non, ut Cato existimat, Ligurum, ex quibus Laevi et Marici condidere <placeName ref="http://pleiades.stoa.org/places/383798" xml:id="recogito-dc2d1268-23a8-486e-8a3b-8254dc02f8e1" cert="high">Ticinum</placeName> non procul a <placeName ref="http://pleiades.stoa.org/places/393469" xml:id="recogito-f1c73c62-bfb8-4ad9-8944-115b0761aba8" cert="high">Pado</placeName>, sicut Boi Transalpibus profecti <placeName ref="http://pleiades.stoa.org/places/383691" xml:id="recogito-7e237d86-1ab8-4cf7-b9cf-e2998aed9ed3" cert="high">Laudem Pompeiam</placeName>, Insubres <placeName ref="http://pleiades.stoa.org/places/383706" xml:id="recogito-d4a204dd-aeab-4495-be31-4379e83ff592" cert="high">Mediolanum</placeName>. Oromobiorum stirpis esse <placeName ref="http://pleiades.stoa.org/places/383627" xml:id="recogito-f332c78f-ed70-4ee4-8bc4-6f381ca389af" cert="high">Comum</placeName> atque <placeName ref="http://pleiades.stoa.org/places/383589" xml:id="recogito-32487153-cc34-433f-b5ff-03c3f65fa984" cert="high">Bergomum</placeName> et <placeName ref="http://pleiades.stoa.org/places/383696" xml:id="recogito-14a57d9e-b592-438c-85cd-c8149c0fe754" cert="high">Licini Forum</placeName> aliquotque circa populos auctor est Cato, sed originem gentis ignorare se fatetur, quam docet Cornelius Alexander ortam a Graecia interpretatione etiam nominis vitam in montibus degentium.</p><p>in hoc situ interiit oppidum Oromobiorum <placeName ref="http://pleiades.stoa.org/places/383739" xml:id="recogito-e896e70c-3875-4191-91e2-b01ffbb1a893" cert="high">Parra</placeName>, unde Bergomates Cato dixit ortos, etiamnum prodente se altius quam fortunatius situm. interiere et Caturiges, Insubrum exsules, et Spina supra dicta, item <placeName ref="http://pleiades.stoa.org/places/387324" xml:id="recogito-1df0a11f-8de7-44ad-b75e-a951216100c9" cert="high">Melpum</placeName> opulentia praecipuum, quod ab Insubribus et Bois et Senonibus deletum eo die, quo Camillus Veios ceperit, Nepos Cornelius tradidit.</p><p>Sequitur decima regio <placeName xml:id="recogito-a711b4d1-9fd6-4275-a2c5-9274692f2999" cert="unknown">Italiae</placeName><note target="recogito-a711b4d1-9fd6-4275-a2c5-9274692f2999" resp="vvitale">https://pleiades.stoa.org/places/754349602</note>, <placeName ref="http://pleiades.stoa.org/places/1004" xml:id="recogito-f4b86f6b-3f1b-4ddb-8b62-8e9396c85a32" cert="high">Hadriatico mari</placeName> adposita, cuius <placeName ref="http://pleiades.stoa.org/places/393511" xml:id="recogito-0fccf6c0-17df-48d9-ae0e-1f73beee9821" cert="high">Venetia</placeName>, fluvius <placeName ref="http://pleiades.stoa.org/places/393496" xml:id="recogito-d3814411-5302-4b8c-913b-678338841737" cert="high">Silis</placeName> ex montibus <placeName ref="http://pleiades.stoa.org/places/393503" xml:id="recogito-50ee4ccc-a0a4-4da0-b411-1a1dd727e927" cert="high">Tarvisanis</placeName>, oppidum <placeName ref="http://pleiades.stoa.org/places/393374" xml:id="recogito-b1573429-5284-4934-80c5-2efded3a45ce" cert="high">Altinum</placeName>, flumen <placeName ref="http://pleiades.stoa.org/places/393446" xml:id="recogito-ad6bf241-33d2-4d98-9fd4-afe06a381b43" cert="high">Liquentia</placeName> ex montibus <placeName ref="http://pleiades.stoa.org/places/393459" xml:id="recogito-23b256d6-3243-447c-ade5-08b65687ccec" cert="high">Opiterginis</placeName> et portus eodem nomine, colonia <placeName ref="http://pleiades.stoa.org/places/393441" xml:id="recogito-7711fb73-413c-4c82-acf0-3dfc6d4d5173" cert="high">Concordia</placeName>, flumina et portus <placeName ref="http://pleiades.stoa.org/places/393481" xml:id="recogito-a293d6d8-c3de-4152-8cb6-cf3ee9ce6c86" cert="high">Reatinum</placeName>, <placeName ref="http://pleiades.stoa.org/places/187585" xml:id="recogito-8a7b5bbc-827a-42f5-81c1-7d13cbe08fec" cert="high">Tiliaventum</placeName> Maius Minusque, Anaxum, quo Varamus defluit, Alsa, <placeName ref="http://pleiades.stoa.org/places/187487" xml:id="recogito-89e0c66f-8ed7-4e7b-84a3-079c18e2707e" cert="high">Natiso</placeName> cum Turro, praefluentes <placeName ref="http://pleiades.stoa.org/places/187290" xml:id="recogito-1fdc3a73-98b0-47bf-8043-a967b6f7af5a" cert="high">Aquileiam</placeName> coloniam XV p. a mari sitam. </p></div></body>
+        </text>
+      </TEI>
