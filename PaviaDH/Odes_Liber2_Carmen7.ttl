@@ -1,0 +1,1558 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterm: <http://purl.org/dc/terms/> .
+@prefix documentNamespace: <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/> .
+@prefix lilaIpoLemma: <http://lila-erc.eu/data/id/hypolemma/> .
+@prefix lilaLemma: <http://lila-erc.eu/data/id/lemma/> .
+@prefix lilaOntology: <http://lila-erc.eu/ontologies/lila/> .
+@prefix lila_authors: <http://lila-erc.eu/data/corpora/id/authors/> .
+@prefix lila_corpus: <http://lila-erc.eu/ontologies/lila_corpora/> .
+@prefix ontolex: <http://www.w3.org/ns/lemon/ontolex#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix powla: <http://purl.org/powla/powla.owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7>
+  a powla:Document, owl:NamedIndividual;
+  dc:description "Ode 2.7. Esercizio workshop DH in action, Pavia";
+  dc:title "Odes_Liber2_Carmen7";
+  dcterm:creator <https://catalog.digitallatin.org/dll-author/A4876>;
+  dcterm:license <http://www.wikidata.org/entity/Q42553662>;
+  dcterm:publisher <https://viaf.org/viaf/146209056/>;
+  rdfs:label "Odes_Liber2_Carmen7" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>
+  a powla:DocumentLayer, owl:NamedIndividual;
+  dc:description "Odes_Liber2_Carmen7 Document Layer";
+  dc:title "Document Layer";
+  powla:hasDocument <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7> .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure>
+  a lila_corpus:CitationStructure, owl:NamedIndividual;
+  lila_corpus:first <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-1>;
+  lila_corpus:isLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-1>;
+  dc:description "Odes_Liber2_Carmen7 Citation Layer";
+  dc:title "Citation Layer";
+  powla:hasDocument <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7> .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-1>
+  a lila_corpus:citationUnit, owl:NamedIndividual;
+  lila_corpus:first <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-1/t-1>;
+  lila_corpus:hasCitLevel "1"^^xsd:int;
+  lila_corpus:hasRefType "Sentence";
+  powla:hasChild <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-1/t-1>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-1/t-10>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-1/t-11>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-1/t-12>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-1/t-13>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-1/t-2>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-1/t-3>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-1/t-4>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-1/t-5>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-1/t-14>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-1/t-6>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-1/t-7>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-1/t-8>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-1/t-9>;
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-2>;
+  rdfs:label "Sentence 1" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-1/t-1>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:114172;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "O";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-1/t-2>;
+  rdfs:label "O" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-1/t-2>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:123106;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "saepe";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-1/t-3>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-1/t-1>;
+  rdfs:label "saepe" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-1/t-3>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:100712;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "mecum";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-1/t-4>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-1/t-2>;
+  rdfs:label "mecum" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-1/t-4>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:127522;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "tempus";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-1/t-5>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-1/t-3>;
+  rdfs:label "tempus" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-1/t-5>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:106748;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "in";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-1/t-6>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-1/t-4>;
+  rdfs:label "in" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-1/t-6>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:130507;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "ultimum";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-1/t-7>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-1/t-5>;
+  rdfs:label "ultimum" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-1/t-7>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:98210;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "deducte";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-1/t-8>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-1/t-6>;
+  rdfs:label "deducte" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-1/t-8>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:1578;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "Bruto";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-1/t-9>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-1/t-7>;
+  rdfs:label "Bruto" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-1/t-9>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:112331;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "militiae";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-1/t-10>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-1/t-8>;
+  rdfs:label "militiae" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-1/t-10>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:100327;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "duce";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-1/t-11>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-1/t-9>;
+  rdfs:label "duce" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-1/t-11>
+  a powla:Terminal;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue ",";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-1/t-12>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-1/t-10>;
+  rdfs:label "," .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-1/t-12>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:121354;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "quis";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-1/t-13>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-1/t-11>;
+  rdfs:label "quis" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-1/t-13>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:129131;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "te";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-1/t-14>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-1/t-12>;
+  rdfs:label "te" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-1/t-14>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:122476;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "redonavit";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-1/t-15>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-1/t-13>;
+  rdfs:label "redonavit" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-1/t-15>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:19825;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "Quiritem";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-1/t-16>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-1/t-14>;
+  rdfs:label "Quiritem" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-1>
+  lila_corpus:last <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-1/t-17>;
+  powla:hasChild <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-1/t-15>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-1/t-16>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-1/t-17> .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-1/t-16>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:99132;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "dis";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-1/t-17>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-1/t-15>;
+  rdfs:label "dis" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-1/t-17>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:116249;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "patriis";
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-1/t-16>;
+  rdfs:label "patriis" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-2>
+  a lila_corpus:citationUnit, owl:NamedIndividual;
+  lila_corpus:first <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-2/t-1>;
+  lila_corpus:hasCitLevel "1"^^xsd:int;
+  lila_corpus:hasRefType "Sentence";
+  lila_corpus:last <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-2/t-3>;
+  powla:hasChild <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-2/t-1>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-2/t-2>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-2/t-3>;
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-1>;
+  rdfs:label "Sentence 2" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure>
+  lila_corpus:isLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-2>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3> .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-2/t-1>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:135840;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "Italoque";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-2/t-2>;
+  rdfs:label "Italoque" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-2/t-2>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:92231;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "caelo";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-2/t-3>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-2/t-1>;
+  rdfs:label "caelo" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-2/t-3>
+  a powla:Terminal;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue ",";
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-2/t-2>;
+  rdfs:label "," .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3>
+  a lila_corpus:citationUnit, owl:NamedIndividual;
+  lila_corpus:first <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-1>;
+  lila_corpus:hasCitLevel "1"^^xsd:int;
+  lila_corpus:hasRefType "Sentence";
+  powla:hasChild <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-1>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-10>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-11>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-12>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-13>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-2>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-3>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-4>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-14>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-5>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-6>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-7>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-8>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-9>;
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-2>;
+  powla:hasChild <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-15>;
+  rdfs:label "Sentence 3" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-1>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:19119;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "Pompei";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-2>;
+  rdfs:label "Pompei" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-2>
+  a powla:Terminal;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue ",";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-3>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-1>;
+  rdfs:label "," .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-3>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:112262;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "meorum";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-4>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-2>;
+  rdfs:label "meorum" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-4>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:119498;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "prime";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-5>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-3>;
+  rdfs:label "prime" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-5>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:125023;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "sodalium";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-6>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-4>;
+  rdfs:label "sodalium" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-6>
+  a powla:Terminal;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue ",";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-7>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-5>;
+  rdfs:label "," .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-7>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:97201;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "cum";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-8>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-6>;
+  rdfs:label "cum" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-8>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:121354;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "quo";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-9>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-7>;
+  rdfs:label "quo" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-9>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:112802;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "morantem";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-10>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-8>;
+  rdfs:label "morantem" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-10>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:123106;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "saepe";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-11>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-9>;
+  rdfs:label "saepe" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-11>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:99334;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "diem";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-12>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-10>;
+  rdfs:label "diem" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-12>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:112156;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "mero";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-13>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-11>;
+  rdfs:label "mero" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-13>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:103738;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "fregi";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-14>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-12>;
+  rdfs:label "fregi" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-14>
+  a powla:Terminal;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue ",";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-15>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-13>;
+  rdfs:label "," .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-15>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:96654;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "coronatus";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-16>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-14>;
+  rdfs:label "coronatus" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-16>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaIpoLemma:28789;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "nitentis";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-17>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-15>;
+  rdfs:label "nitentis" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3>
+  lila_corpus:last <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-20>;
+  powla:hasChild <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-16>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-17>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-18>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-19>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-20> .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-17>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:111411;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "malobathro";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-18>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-16>;
+  rdfs:label "malobathro" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-18>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:22691;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "Syrio";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-19>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-17>;
+  rdfs:label "Syrio" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-19>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:92683;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "capillos";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-20>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-18>;
+  rdfs:label "capillos" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-20>
+  a powla:Terminal;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "?";
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3/t-19>;
+  rdfs:label "?" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4>
+  a lila_corpus:citationUnit, owl:NamedIndividual;
+  lila_corpus:first <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-1>;
+  lila_corpus:hasCitLevel "1"^^xsd:int;
+  lila_corpus:hasRefType "Sentence";
+  powla:hasChild <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-1>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-10>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-11>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-12>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-13>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-2>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-3>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-4>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-5>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-6>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-7>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-14>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-8>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-9>;
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-3>;
+  rdfs:label "Sentence 4" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure>
+  lila_corpus:isLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4> .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-1>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:129131;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "Tecum";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-2>;
+  rdfs:label "Tecum" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-2>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:18444;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "Philippos";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-3>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-1>;
+  rdfs:label "Philippos" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-3>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:101542;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "et";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-4>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-2>;
+  rdfs:label "et" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-4>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:93322;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "celerem";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-5>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-3>;
+  rdfs:label "celerem" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-5>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:103915;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "fugam";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-6>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-4>;
+  rdfs:label "fugam" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-6>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:124353;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "sensi";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-7>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-5>;
+  rdfs:label "sensi" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-7>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:122569;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "relicta";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-8>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-6>;
+  rdfs:label "relicta" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-8>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:114108;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "non";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-9>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-7>;
+  rdfs:label "non" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-9>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:91473;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "bene";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-10>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-8>;
+  rdfs:label "bene" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-10>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:116058;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "parmula";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-11>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-9>;
+  rdfs:label "parmula" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-11>
+  a powla:Terminal;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue ",";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-12>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-10>;
+  rdfs:label "," .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-12>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:97202;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "cum";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-13>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-11>;
+  rdfs:label "cum" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-13>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:103738;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "fracta";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-14>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-12>;
+  rdfs:label "fracta" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-14>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:130356;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "virtus";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-15>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-13>;
+  rdfs:label "virtus" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-15>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:101542;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "et";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-16>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-14>;
+  rdfs:label "et" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4>
+  lila_corpus:last <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-21>;
+  powla:hasChild <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-15>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-16>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-17>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-18>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-19>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-20>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-21> .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-16>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:112368;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "minaces";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-17>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-15>;
+  rdfs:label "minaces" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-17>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:129288;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "turpe";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-18>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-16>;
+  rdfs:label "turpe" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-18>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaIpoLemma:111490;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "solum";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-19>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-17>;
+  rdfs:label "solum" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-19>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:127620;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "tetigere";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-20>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-18>;
+  rdfs:label "tetigere" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-20>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:112288;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "mento";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-21>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-19>;
+  rdfs:label "mento" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-21>
+  a powla:Terminal;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue ";";
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4/t-20>;
+  rdfs:label ";" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5>
+  a lila_corpus:citationUnit, owl:NamedIndividual;
+  lila_corpus:first <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-1>;
+  lila_corpus:hasCitLevel "1"^^xsd:int;
+  lila_corpus:hasRefType "Sentence";
+  powla:hasChild <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-1>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-10>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-11>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-12>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-13>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-2>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-3>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-4>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-5>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-6>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-7>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-14>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-8>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-9>;
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-4>;
+  rdfs:label "Sentence 5" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure>
+  lila_corpus:isLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5> .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-1>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:123994;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "sed";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-2>;
+  rdfs:label "sed" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-2>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:100712;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "me";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-3>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-1>;
+  rdfs:label "me" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-3>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:116569;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "per";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-4>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-2>;
+  rdfs:label "per" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-4>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:105757;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "hostis";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-5>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-3>;
+  rdfs:label "hostis" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-5>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:14293;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "Mercurius";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-6>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-4>;
+  rdfs:label "Mercurius" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-6>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:93322;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "celer";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-7>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-5>;
+  rdfs:label "celer" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-7>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:98628;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "denso";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-8>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-6>;
+  rdfs:label "denso" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-8>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:116275;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "paventem";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-9>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-7>;
+  rdfs:label "paventem" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-9>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:128357;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "sustulit";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-10>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-8>;
+  rdfs:label "sustulit" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-10>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:87873;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "aere";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-11>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-9>;
+  rdfs:label "aere" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-11>
+  a powla:Terminal;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue ",";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-12>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-10>;
+  rdfs:label "," .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-12>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:129131;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "te";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-13>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-11>;
+  rdfs:label "te" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-13>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:122295;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "rursus";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-14>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-12>;
+  rdfs:label "rursus" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-14>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:106748;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "in";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-15>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-13>;
+  rdfs:label "in" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-15>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:91461;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "bellum";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-16>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-14>;
+  rdfs:label "bellum" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5>
+  lila_corpus:last <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-21>;
+  powla:hasChild <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-15>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-16>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-17>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-18>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-19>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-20>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-21> .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-16>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:122732;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "resorbens";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-17>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-15>;
+  rdfs:label "resorbens" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-17>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:130599;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "unda";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-18>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-16>;
+  rdfs:label "unda" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-18>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:103788;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "fretis";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-19>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-17>;
+  rdfs:label "fretis" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-19>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:103126;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "tulit";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-20>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-18>;
+  rdfs:label "tulit" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-20>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:87952;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "aestuosis";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-21>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-19>;
+  rdfs:label "aestuosis" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-21>
+  a powla:Terminal;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue ".";
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5/t-20>;
+  rdfs:label "." .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6>
+  a lila_corpus:citationUnit, owl:NamedIndividual;
+  lila_corpus:first <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-1>;
+  lila_corpus:hasCitLevel "1"^^xsd:int;
+  lila_corpus:hasRefType "Sentence";
+  powla:hasChild <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-1>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-10>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-11>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-12>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-13>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-2>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-3>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-4>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-5>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-6>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-7>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-14>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-8>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-9>;
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-7>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-5>;
+  rdfs:label "Sentence 6" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure>
+  lila_corpus:isLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6> .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-1>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:101414;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "Ergo";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-2>;
+  rdfs:label "Ergo" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-2>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:114272;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "obligatam";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-3>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-1>;
+  rdfs:label "obligatam" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-3>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:122458;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "redde";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-4>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-2>;
+  rdfs:label "redde" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-4>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:10964;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "Iovi";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-5>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-3>;
+  rdfs:label "Iovi" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-5>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:97911;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "dapem";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-6>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-4>;
+  rdfs:label "dapem" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-6>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:110796;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "longaque";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-7>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-5>;
+  rdfs:label "longaque" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-7>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:103178;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "fessum";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-8>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-6>;
+  rdfs:label "fessum" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-8>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:112331;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "militia";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-9>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-7>;
+  rdfs:label "militia" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-9>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:110056;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "latus";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-10>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-8>;
+  rdfs:label "latus" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-10>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:98737;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "depone";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-11>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-9>;
+  rdfs:label "depone" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-11>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:125956;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "sub";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-12>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-10>;
+  rdfs:label "sub" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-12>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:110101;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "lauru";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-13>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-11>;
+  rdfs:label "lauru" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-13>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:112262;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "mea";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-14>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-12>;
+  rdfs:label "mea" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-14>
+  a powla:Terminal;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue ",";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-15>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-13>;
+  rdfs:label "," .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-15>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:113512;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "nec";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-16>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-14>;
+  rdfs:label "nec" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6>
+  lila_corpus:last <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-20>;
+  powla:hasChild <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-15>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-16>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-17>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-18>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-19>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-20> .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-16>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:116001;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "parce";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-17>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-15>;
+  rdfs:label "parce" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-17>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:92193;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "cadis";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-18>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-16>;
+  rdfs:label "cadis" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-18>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:129131;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "tibi";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-19>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-17>;
+  rdfs:label "tibi" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-19>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:98963;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "destinatis";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-20>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-18>;
+  rdfs:label "destinatis" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-20>
+  a powla:Terminal;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue ".";
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6/t-19>;
+  rdfs:label "." .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-7>
+  a lila_corpus:citationUnit, owl:NamedIndividual;
+  lila_corpus:first <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-7/t-1>;
+  lila_corpus:hasCitLevel "1"^^xsd:int;
+  lila_corpus:hasRefType "Sentence";
+  lila_corpus:last <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-7/t-12>;
+  powla:hasChild <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-7/t-1>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-7/t-10>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-7/t-11>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-7/t-12>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-7/t-2>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-7/t-3>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-7/t-4>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-7/t-5>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-7/t-6>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-7/t-7>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-7/t-8>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-7/t-9>;
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-8>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-6>;
+  rdfs:label "Sentence 7" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure>
+  lila_corpus:isLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-7>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-8> .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-7/t-1>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:114289;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "Oblivioso";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-7/t-2>;
+  rdfs:label "Oblivioso" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-7/t-2>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:110343;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "levia";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-7/t-3>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-7/t-1>;
+  rdfs:label "levia" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-7/t-3>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:140404;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "Massico";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-7/t-4>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-7/t-2>;
+  rdfs:label "Massico" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-7/t-4>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:93925;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "ciboria";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-7/t-5>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-7/t-3>;
+  rdfs:label "ciboria" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-7/t-5>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:102194;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "exple";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-7/t-6>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-7/t-4>;
+  rdfs:label "exple" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-7/t-6>
+  a powla:Terminal;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue ",";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-7/t-7>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-7/t-5>;
+  rdfs:label "," .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-7/t-7>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:104012;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "funde";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-7/t-8>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-7/t-6>;
+  rdfs:label "funde" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-7/t-8>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:92657;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "capacibus";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-7/t-9>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-7/t-7>;
+  rdfs:label "capacibus" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-7/t-9>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:130652;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "unguenta";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-7/t-10>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-7/t-8>;
+  rdfs:label "unguenta" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-7/t-10>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:97932;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "de";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-7/t-11>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-7/t-9>;
+  rdfs:label "de" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-7/t-11>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:95489;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "conchis";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-7/t-12>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-7/t-10>;
+  rdfs:label "conchis" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-7/t-12>
+  a powla:Terminal;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue ".";
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-7/t-11>;
+  rdfs:label "." .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-8>
+  a lila_corpus:citationUnit, owl:NamedIndividual;
+  lila_corpus:first <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-8/t-1>;
+  lila_corpus:hasCitLevel "1"^^xsd:int;
+  lila_corpus:hasRefType "Sentence";
+  lila_corpus:last <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-8/t-5>;
+  powla:hasChild <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-8/t-1>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-8/t-2>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-8/t-3>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-8/t-4>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-8/t-5>;
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-9>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-7>;
+  rdfs:label "Sentence 8" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-8/t-1>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:121165;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "Quis";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-8/t-2>;
+  rdfs:label "Quis" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-8/t-2>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:129652;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "udo";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-8/t-3>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-8/t-1>;
+  rdfs:label "udo" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-8/t-3>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:98790;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "deproperare";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-8/t-4>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-8/t-2>;
+  rdfs:label "deproperare" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-8/t-4>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:89459;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "apio";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-8/t-5>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-8/t-3>;
+  rdfs:label "apio" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-8/t-5>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:96642;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "coronas";
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-8/t-4>;
+  rdfs:label "coronas" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-9>
+  a lila_corpus:citationUnit, owl:NamedIndividual;
+  lila_corpus:first <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-9/t-1>;
+  lila_corpus:hasCitLevel "1"^^xsd:int;
+  lila_corpus:hasRefType "Sentence";
+  lila_corpus:last <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-9/t-3>;
+  powla:hasChild <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-9/t-1>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-9/t-2>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-9/t-3>;
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-10>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-8>;
+  rdfs:label "Sentence 9" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure>
+  lila_corpus:isLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-10>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-11>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-9> .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-9/t-1>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:97341;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "curatve";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-9/t-2>;
+  rdfs:label "curatve" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-9/t-2>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:113103;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "myrto";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-9/t-3>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-9/t-1>;
+  rdfs:label "myrto" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-9/t-3>
+  a powla:Terminal;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "?";
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-9/t-2>;
+  rdfs:label "?" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-10>
+  a lila_corpus:citationUnit, owl:NamedIndividual;
+  lila_corpus:first <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-10/t-1>;
+  lila_corpus:hasCitLevel "1"^^xsd:int;
+  lila_corpus:hasRefType "Sentence";
+  lila_corpus:last <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-10/t-6>;
+  powla:hasChild <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-10/t-1>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-10/t-2>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-10/t-3>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-10/t-4>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-10/t-5>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-10/t-6>;
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-11>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-9>;
+  rdfs:label "Sentence 10" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-10/t-1>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:121354;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "Quem";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-10/t-2>;
+  rdfs:label "Quem" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-10/t-2>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:24845;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "Venus";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-10/t-3>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-10/t-1>;
+  rdfs:label "Venus" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-10/t-3>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:89769;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "arbitrum";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-10/t-4>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-10/t-2>;
+  rdfs:label "arbitrum" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-10/t-4>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:99302;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "dicet";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-10/t-5>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-10/t-3>;
+  rdfs:label "dicet" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-10/t-5>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:91532;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "bibendi";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-10/t-6>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-10/t-4>;
+  rdfs:label "bibendi" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-10/t-6>
+  a powla:Terminal;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "?";
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-10/t-5>;
+  rdfs:label "?" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-11>
+  a lila_corpus:citationUnit, owl:NamedIndividual;
+  lila_corpus:first <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-11/t-1>;
+  lila_corpus:hasCitLevel "1"^^xsd:int;
+  lila_corpus:hasRefType "Sentence";
+  lila_corpus:last <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-11/t-6>;
+  powla:hasChild <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-11/t-1>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-11/t-2>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-11/t-3>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-11/t-4>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-11/t-5>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-11/t-6>;
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-12>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-10>;
+  rdfs:label "Sentence 11" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-11/t-1>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:114108;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "Non";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-11/t-2>;
+  rdfs:label "Non" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-11/t-2>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:100712;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "ego";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-11/t-3>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-11/t-1>;
+  rdfs:label "ego" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-11/t-3>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaIpoLemma:39381;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "sanius";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-11/t-4>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-11/t-2>;
+  rdfs:label "sanius" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-11/t-4>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:91208;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "bacchabor";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-11/t-5>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-11/t-3>;
+  rdfs:label "bacchabor" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-11/t-5>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:5658;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "Edonis";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-11/t-6>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-11/t-4>;
+  rdfs:label "Edonis" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-11/t-6>
+  a powla:Terminal;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue ":";
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-11/t-5>;
+  rdfs:label ":" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-12>
+  a lila_corpus:citationUnit, owl:NamedIndividual;
+  lila_corpus:first <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-12/t-1>;
+  lila_corpus:hasCitLevel "1"^^xsd:int;
+  lila_corpus:hasRefType "Sentence";
+  lila_corpus:last <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-12/t-7>;
+  powla:hasChild <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-12/t-1>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-12/t-2>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-12/t-3>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-12/t-4>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-12/t-5>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-12/t-6>,
+    <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-12/t-7>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-11>;
+  rdfs:label "Sentence 12" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure>
+  lila_corpus:isLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-12>;
+  lila_corpus:last <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-12> .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-12/t-1>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:122390;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "recepto";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-12/t-2>;
+  rdfs:label "recepto" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-12/t-2>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:100227;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "dulce";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-12/t-3>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-12/t-1>;
+  rdfs:label "dulce" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-12/t-3>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:100712;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "mihi";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-12/t-4>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-12/t-2>;
+  rdfs:label "mihi" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-12/t-4>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:104074;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "furere";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-12/t-5>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-12/t-3>;
+  rdfs:label "furere" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-12/t-5>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:126689;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "est";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-12/t-6>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-12/t-4>;
+  rdfs:label "est" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-12/t-6>
+  a powla:Terminal;
+  lilaOntology:hasLemma lilaLemma:88684;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue "amico";
+  powla:next <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-12/t-7>;
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-12/t-5>;
+  rdfs:label "amico" .
+
+<http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-12/t-7>
+  a powla:Terminal;
+  powla:hasLayer <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/DocumentLayer>;
+  powla:hasStringValue ".";
+  powla:previous <http://lila-erc.eu/data/corpora/Odes_Liber2_Carmen7_110cb979-d39d-46cd-beb6-b11df1dea02b/id/citationUnit/Odes_Liber2_Carmen7/CiteStructure/s-12/t-6>;
+  rdfs:label "." .
